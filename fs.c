@@ -1,3 +1,4 @@
+
 // ============================================================================
 // fs.c - user FileSytem API
 // ============================================================================
@@ -88,6 +89,7 @@ i32 fsRead(i32 fd, i32 numb, void* buf) {
   // Insert your code here
   // ++++++++++++++++++++++++
 
+
   FATAL(ENYI);                                  // Not Yet Implemented!
   return 0;
 }
@@ -162,6 +164,6 @@ i32 fsWrite(i32 fd, i32 numb, void* buf) {
   // Insert your code here
   // ++++++++++++++++++++++++
 
-  FATAL(ENYI);                                  // Not Yet Implemented!
+  FATAL(ENYI);                                  // Not Yet Implemented! 
   return 0;
 }
